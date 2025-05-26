@@ -3,3 +3,7 @@
 *.log
 
 node_modules
+
+# Ensure landing page and vercel config are tracked
+!examples/agentimate-landing/
+!vercel.json
