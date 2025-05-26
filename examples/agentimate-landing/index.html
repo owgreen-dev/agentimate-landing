@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentimate - The Agent That Animates Your Ideas</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Anime.js for animations -->
+  <script src="../../lib/anime.iife.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <span class="logo-icon">🤖</span>
+      <span class="logo-text">Agentimate</span>
+    </div>
+    <div class="auth-buttons">
+      <button class="btn btn-login">Log in</button>
+      <button class="btn btn-signup">Sign up</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">Build something <span class="gradient-text">🎨 Lovable</span></h1>
+      <p class="hero-subtitle">Idea to <b>design</b> in seconds, with your personal animation agent</p>
+      <div class="prompt-box">
+        <textarea placeholder="Ask Agentimate to animate a design idea" rows="2"></textarea>
+        <div class="prompt-actions">
+          <label><input type="checkbox"> Attach</label>
+          <button class="btn btn-public">Public</button>
+          <button class="btn btn-send">&#8593;</button>
+        </div>
+      </div>
+      <h3 class="live-example-title">Live Example: SVG Line Drawing</h3>
+      <div class="live-example-embed">
+        <iframe src="../svg-line-drawing/index.html" title="SVG Line Drawing Example" frameborder="0" width="100%" height="340"></iframe>
+      </div>
+    </section>
+    <section class="community">
+      <h2>From the Community</h2>
+      <div class="community-tabs">
+        <button class="tab active">Most Remixed</button>
+        <button class="tab">Recent</button>
+      </div>
+      <div class="community-gallery">
+        <a class="gallery-item" href="../timeline-refresh-starlings/index.html" target="_blank">
+          <span>Timeline Refresh Starlings</span>
+        </a>
+        <a class="gallery-item" href="../svg-line-drawing/index.html" target="_blank">
+          <span>SVG Line Drawing</span>
+        </a>
+        <a class="gallery-item" href="../easings-visualizer/index.html" target="_blank">
+          <span>Easings Visualizer</span>
+        </a>
+        <a class="gallery-item" href="../onscroll-sticky/index.html" target="_blank">
+          <span>Onscroll Sticky</span>
+        </a>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
